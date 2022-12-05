@@ -8,6 +8,8 @@
 
 import React from 'react';
 import type {Node} from 'react';
+import feed from './assets/data/feed';
+
 
 import {
   SafeAreaView,
@@ -15,12 +17,15 @@ import {
 
 import HomeScreen from './src/screens/home';
 import Post from './src/components/post';
+import SearchResultScreen from './src/screens/searchResults';
 
 const App: () => Node = () => {
+
   return (
     <SafeAreaView>
       {/* <HomeScreen /> */}
-      <Post />
+      {/* <Post props={feed}/> */}
+      <SearchResultScreen />
     </SafeAreaView>
   );
 };

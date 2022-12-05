@@ -2,29 +2,32 @@ import {View, Text, Image} from 'react-native';
 import React from 'react';
 import styles from './styles';
 
-const Post = () => {
+const Post = ({props}) => {
+  console.log("props " + props);
   return (
-    <View style={styles.container}>
-      <Image
-        source={{
-          uri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg',
-        }}
-        style={styles.Image}
-      />
+    <>
+      {props.map(post => (
+        <View style={styles.container} key={post.id}>
+          <Image
+            source={{
+              uri: post.image,
+            }}
+            style={styles.Image}
+          />
 
-      <Text style={styles.bedroom}>1 bed 1 bathroom</Text>
-      <Text style={styles.description}>
-        t is a long established fact that a reader will be distracted by the
-        readable content of a page when looking at its layout. The point of
-        using Lorem Ipsum is that it has a more-or-less normal distribution of
-        letters, as opposed to using 'Content here, content here', making it
-        look like readable{' '}
-      </Text>
-      <Text style={styles.prices}>
-        <Text style={styles.oldPrice}>$36 </Text>
-        <Text style={styles.newPrice}> $30 </Text>/ night
-      </Text>
-    </View>
+          <Text style={styles.bedroom}>
+            {post.bed} bed {post.bedroom} bedroom
+          </Text>
+          <Text style={styles.description}>
+            {post.type}. {post.title}
+          </Text>
+          <Text style={styles.prices}>
+            <Text style={styles.oldPrice}>{post.oldPrice} </Text>
+            <Text style={styles.newPrice}> {post.newPrice} </Text>/ night
+          </Text>
+        </View>
+      ))}
+    </>
   );
 };
 

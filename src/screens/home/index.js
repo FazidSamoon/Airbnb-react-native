@@ -1,4 +1,4 @@
-import {View, Text, ImageBackground, TextInput, Pressable} from 'react-native';
+import {View, Text, ImageBackground, TextInput, Pressable, TouchableOpacity} from 'react-native';
 import React from 'react';
 import styles from './styles';
 import bg from '../../../assets/images/wallpaper.jpg';
@@ -11,21 +11,21 @@ const HomeScreen = () => {
   return (
     <View style={{position: 'relative'}}>
       {/* search bar compnent */}
-      <Pressable
+      <TouchableOpacity
         style={styles.searchButton}
         onPress={buttonPressed}>
         <Fontisto name="search" size={25} color={'#f15454'} />
         <Text style={styles.searchButtonText}>Where are you going?</Text>
-      </Pressable>
+      </TouchableOpacity>
 
       <ImageBackground source={bg} style={styles.image}>
         <Text style={styles.title}>Go Near</Text>
 
-        <Pressable
+        <TouchableOpacity
           style={styles.button}
           onPress={() => console.log('button clicked')}>
           <Text style={styles.buttonText}>Explore nearby stays</Text>
-        </Pressable>
+        </TouchableOpacity>
       </ImageBackground>
     </View>
   );
