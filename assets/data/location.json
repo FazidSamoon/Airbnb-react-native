@@ -1,0 +1,102 @@
+[
+    {
+      "id": 0,
+      "description": "Tenerife, Canary Islands"
+    },
+    {
+      "id": 1,
+      "description": "Tenerife, Santa Cruz de Tenerife"
+    },
+    {
+      "id": 2,
+      "description": "Tenerife, El Medano"
+    },
+    {
+      "id": 3,
+      "description": "Tenerife, Costa Adeje"
+    },
+    {
+      "id": 4,
+      "description": "Tenerife, Puerto de la Cruz"
+    },
+    {
+      "id": 5,
+      "description": "Tenerife, Los Cristianos"
+    },
+    {
+      "id": 6,
+      "description": "Tenerife, Playa de las Americas"
+    },
+    {
+      "id": 7,
+      "description": "Tenerife, La Orotava"
+    },
+    {
+      "id": 8,
+      "description": "Tenerife, San Miguel de Abona"
+    },
+    {
+      "id": 9,
+      "description": "Tenerife, Arona"
+    },
+    {
+      "id": 10,
+      "description": "Tenerife, Adeje"
+    },
+    {
+      "id": 11,
+      "description": "Tenerife, Santa Ursula"
+    },
+    {
+      "id": 12,
+      "description": "Tenerife, Puerto de Santiago"
+    },
+    {
+      "id": 13,
+      "description": "Tenerife, La Laguna"
+    },
+    {
+      "id": 14,
+      "description": "Tenerife, Guia de Isora"
+    },
+    {
+      "id": 15,
+      "description": "Tenerife, La Matanza de Acentejo"
+    },
+    {
+      "id": 16,
+      "description": "Tenerife, Los Realejos"
+    },
+    {
+      "id": 17,
+      "description": "Tenerife, San Cristobal de La Laguna"
+    },
+    {
+      "id": 18,
+      "description": "Tenerife, La Victoria de Acentejo"
+    },
+    {
+      "id": 19,
+      "description": "Tenerife, Tacoronte"
+    },
+    {
+      "id": 20,
+      "description": "Tenerife, Santa Cruz de la Palma"
+    },
+    {
+      "id": 21,
+      "description": "Tenerife, San Juan de la Rambla"
+    },
+    {
+      "id": 22,
+      "description": "Tenerife, La Guancha"
+    },
+    {
+      "id": 23,
+      "description": "Tenerife, San Isidro"
+    },
+    {
+      "id": 24,
+      "description": "Tenerife, Santiago del Teide"
+    }
+  ]

@@ -18,6 +18,7 @@ import {
 import HomeScreen from './src/screens/home';
 import Post from './src/components/post';
 import SearchResultScreen from './src/screens/searchResults';
+import SearchDestination from './src/screens/DestinationSearch';
 
 const App: () => Node = () => {
 
@@ -25,7 +26,8 @@ const App: () => Node = () => {
     <SafeAreaView>
       {/* <HomeScreen /> */}
       {/* <Post props={feed}/> */}
-      <SearchResultScreen />
+      {/* <SearchResultScreen /> */}
+      <SearchDestination />
     </SafeAreaView>
   );
 };
